@@ -185,3 +185,41 @@ li{
 .worksHead p{
     color: #94A2B3;
 }
+
+
+.sectionBg{
+    background-color: #7854F7;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+.developImg{
+    margin-top: -50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.developImg img{
+    width: 430px;
+    height: auto;
+}
+
+
+article h3{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 46px;
+    
+}
+article p{
+    line-height: 30px;
+}
+
+
+.article a{
+    background-color: #70C217;
+    color: white;
+    border-radius: 60px;
+    padding: 15px 35px;
+}
