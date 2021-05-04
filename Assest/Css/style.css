@@ -10,7 +10,6 @@ li{
 
 .bgImg{
     background-image: url("/Assest/Image/bg_gradient.png");
-    height: 1000px;
     width: 100%;
      
 }
@@ -39,7 +38,7 @@ li{
 #menu{
     display: none;
 }
-/* Responsive */
+/* Responsive Header*/
 
 @media only screen and (max-width: 1140px) {
     .navMenu{
@@ -65,3 +64,83 @@ li{
        text-align: center;
     }
 }
+
+
+/* Header Bottom */
+
+.eInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eInfo h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.eInfo  p{
+    color: #94A2B3;
+    font-size: 18px;
+    line-height: 25px;
+}
+.ml-250{
+    margin-left: 200px;
+}
+.stores{
+    padding-top: 20px;
+}
+
+.stores a[href^="https"]{
+    background: #7854F7;
+    border-radius: 60px;
+    color: white;
+    padding: 10px 30px;
+}
+.stores span{
+    color: #94A2B3;
+}
+
+@media  screen and (max-width: 1200px) {
+    .eInfo{
+        text-align: center;
+ 
+        margin-bottom: 7em;
+    }
+    .ml-250{
+        margin-left: 0px;
+    }
+    .stores{
+        display: flex;
+        flex-direction: column;
+    }
+    .stores a[href^="https"]{
+        width: 50%;
+        margin: auto;
+    }
+    .ml-250 h1{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+}
+
+.infoEco h5{
+    width: 40%;
+    margin: auto;
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    color: #272D4E;
+}
+@media  screen and (max-width: 962px) {
+    .infoEco h5{
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
