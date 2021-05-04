@@ -223,3 +223,27 @@ article p{
     border-radius: 60px;
     padding: 15px 35px;
 }
+
+.people h3{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+}
+.people p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #94A2B3;
+}
+
+.people img{
+    width: 100%;
+    height: auto;
+}
