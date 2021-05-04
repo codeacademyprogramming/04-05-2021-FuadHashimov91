@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* Header */
+
+
+.bgImg{
+    background-image: url("/Assest/Image/bg_gradient.png");
+    height: 1000px;
+    width: 100%;
+     
+}
+
+.navMenu li{
+    padding-right: 20px;
+}
+.navMenu a, .rightNav a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rightNav li{
+    padding-right: 20px;
+}
+.rightNav li:nth-child(2) a{
+    background-color: #7854F7;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+}
+
+
+
+#menu{
+    display: none;
+}
+/* Responsive */
+
+@media only screen and (max-width: 1140px) {
+    .navMenu{
+        justify-content:flex-end;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .navMenu{
+        display: none !important;
+    }
+    #menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    nav ~ div{
+        display: none;
+    }
+    nav{
+       text-align: center;
+    }
+}
