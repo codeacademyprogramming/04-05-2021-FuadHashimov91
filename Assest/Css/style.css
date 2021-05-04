@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 a{
     text-decoration: none;
 }
@@ -144,3 +148,40 @@ li{
     }
 }
 
+
+/* Main */
+
+
+.contain{
+    width: 80%;
+    margin: auto;
+}
+
+.wSize-400{
+    width: 100%;
+    height: auto;
+}
+
+
+.work{
+    position: relative;
+    padding: 0;
+}
+.work div img{
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    width: 200px;
+    height: auto;
+}
+.worksHead{
+    width: 80%;
+    margin: auto;
+}
+.worksHead h4{
+    color: #272D4E;
+
+}
+.worksHead p{
+    color: #94A2B3;
+}
