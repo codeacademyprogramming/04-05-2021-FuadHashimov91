@@ -254,7 +254,6 @@ article p{
     align-items: center;
     flex-wrap: wrap;
 }
-
 .mainFooter p{
     font-family: Roboto;
     font-style: normal;
@@ -264,7 +263,6 @@ article p{
     color: #FFFFFF;
     text-align: left;
 }
-
 .mainFooter a{
     padding: 10px 25px;
     border: 2px solid #FFFFFF;
@@ -273,8 +271,6 @@ article p{
     color: white;
 
 }
-
-
 .information{
     width: 100%;
     margin: auto;
@@ -283,20 +279,16 @@ article p{
 .information p{
     color: white;
 }
-
-
 .footerBg{
     background-color: rgba(120, 84, 247, 1);
     width: 100%;
     margin: auto;
     padding: 4rem 0px;
 }
-
 footer li ,a{
     color: white;
     padding-bottom: 10px;
 }
-
 footer li:first-child{
     font-family: Roboto;
     font-style: normal;
