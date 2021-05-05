@@ -247,3 +247,62 @@ article p{
     width: 100%;
     height: auto;
 }
+
+.mainFooter{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainFooter p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.mainFooter a{
+    padding: 10px 25px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    color: white;
+
+}
+
+
+.information{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(120, 84, 247, 1);
+}
+.information p{
+    color: white;
+}
+
+
+.footerBg{
+    background-color: rgba(120, 84, 247, 1);
+    width: 100%;
+    margin: auto;
+    padding: 4rem 0px;
+}
+
+footer li ,a{
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer li:first-child{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
